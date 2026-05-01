@@ -1,0 +1,1843 @@
+{
+    "name": "Save 2",
+    "inventory": {},
+    "inventoryLen": 10,
+    "equipped": "",
+    "health": 100,
+    "maxHealth": 100,
+    "resistance": 0,
+    "expansion": false,
+    "realm": "Overworld",
+    "vehicleVariants": [
+        "VEHICLE"
+    ],
+    "addons": [
+        {
+            "Expansions": {
+                "Cashflow": {
+                    "Status": "Off",
+                    "Location": "MARKET"
+                },
+                "Dustbound": {
+                    "Status": "Off",
+                    "Location": "TAVERN"
+                },
+                "Spacevoyager": {
+                    "Status": "Off",
+                    "Location": "LAUNCH SITE"
+                },
+                "EXAMPLE_NAME": {
+                    "Status": "Off",
+                    "Location": "INITIAL_LOCATION"
+                }
+            }
+        },
+        {
+            "Extensions": {
+                "Bearextenstion": {
+                    "Status": "Off"
+                },
+                "Davethemagicalcheesewizard": {
+                    "Status": "Off"
+                },
+                "Drifterextension": {
+                    "Status": "Off"
+                },
+                "EXAMPLE_NAME": {
+                    "Status": "Off"
+                }
+            }
+        },
+        {
+            "Realms": {
+                "Cheeserealm": {
+                    "Status": "Off",
+                    "Location": "CHEESE REALM"
+                },
+                "EXAMPLE_NAME": {
+                    "Status": "Off",
+                    "Location": "EXAMPLE_REALM"
+                }
+            }
+        }
+    ],
+    "addonLocations": [
+        "HOUSE"
+    ],
+    "Enemies": {
+        "Demon": {
+            "Health": 0,
+            "Room": "",
+            "Exists": false,
+            "Location": "",
+            "Damage": 10,
+            "Restrictions": [
+                "VEHICLE"
+            ],
+            "Defeated": false,
+            "Ending": "Demon Slayer",
+            "HRange": [
+                100,
+                110,
+                120,
+                130,
+                140,
+                150
+            ],
+            "Drop": ""
+        }
+    },
+    "dropables": [
+        {
+            "Storage": "Sack",
+            "Loot": [
+                "Cheese"
+            ]
+        },
+        {
+            "Storage": "Box",
+            "Loot": []
+        }
+    ],
+    "cheeseTolerance": 0,
+    "itemCopies": {},
+    "craftables": {
+        "Sandwich": [
+            "Ham",
+            "Cheese",
+            "Bread"
+        ],
+        "Slipper": [
+            "Belt",
+            "Cannon",
+            "Stick"
+        ]
+    },
+    "cheeseTotal": 0,
+    "totalCheeseCount": 3,
+    "darkRooms": [
+        "CAVE",
+        "CAVERNS",
+        "BASEMENT",
+        "TUNNELSS"
+    ],
+    "roomAttributes": [
+        {
+            "Location": "OUTSIDE",
+            "Doors": [
+                "KITCHEN",
+                "CORRIDOR",
+                "GARAGE",
+                "FOREST"
+            ],
+            "Storage": [
+                "MAILBOX"
+            ]
+        },
+        {
+            "Location": "CORRIDOR",
+            "Doors": [
+                "KITCHEN",
+                "BATHROOM",
+                "UPSTAIRS",
+                "OUTSIDE",
+                "BASEMENT"
+            ],
+            "Storage": [
+                "CABINET"
+            ]
+        },
+        {
+            "Location": "KITCHEN",
+            "Doors": [
+                "CORRIDOR",
+                "DINING ROOM",
+                "ATTIC",
+                "OUTSIDE"
+            ],
+            "Storage": [
+                "CABINET",
+                "FRIDGE"
+            ]
+        },
+        {
+            "Location": "ATTIC",
+            "Doors": [
+                "KITCHEN",
+                "UPSTAIRS",
+                "ROOF"
+            ],
+            "Storage": [
+                "CHEST",
+                "CABINET"
+            ]
+        },
+        {
+            "Location": "BASEMENT",
+            "Doors": [
+                "CORRIDOR",
+                "TUNNELS"
+            ],
+            "Storage": [
+                "FRIDGE",
+                "CHEST"
+            ]
+        },
+        {
+            "Location": "TUNNELS",
+            "Doors": [
+                "BASEMENT",
+                "CAVES"
+            ],
+            "Storage": [
+                "DECORATED CHEST"
+            ]
+        },
+        {
+            "Location": "ROOF",
+            "Doors": [
+                "ATTIC"
+            ],
+            "Storage": []
+        },
+        {
+            "Location": "UPSTAIRS",
+            "Doors": [
+                "ATTIC",
+                "CORRIDOR",
+                "LOUNGE",
+                "BEDROOM"
+            ],
+            "Storage": [
+                "CABINET",
+                "CHEST"
+            ]
+        },
+        {
+            "Location": "GARAGE",
+            "Doors": [
+                "OUTSIDE",
+                "VEHICLE"
+            ],
+            "Storage": [
+                "CHEST"
+            ]
+        },
+        {
+            "Location": "BEDROOM",
+            "Doors": [
+                "UPSTAIRS"
+            ],
+            "Storage": [
+                "CABINET",
+                "CHEST"
+            ]
+        },
+        {
+            "Location": "DINING ROOM",
+            "Doors": [
+                "KITCHEN",
+                "BATHROOM"
+            ],
+            "Storage": [
+                "CHEST"
+            ]
+        },
+        {
+            "Location": "BATHROOM",
+            "Doors": [
+                "DINING ROOM",
+                "CORRIDOR"
+            ],
+            "Storage": []
+        },
+        {
+            "Location": "LOUNGE",
+            "Doors": [
+                "UPSTAIRS"
+            ],
+            "Storage": [
+                "CABINET"
+            ]
+        },
+        {
+            "Location": "FOREST",
+            "Doors": [
+                "OUTSIDE",
+                "CAMPSITE",
+                "CAVES"
+            ],
+            "Storage": []
+        },
+        {
+            "Location": "CAMPSITE",
+            "Doors": [
+                "FOREST"
+            ],
+            "Storage": [
+                "TENT"
+            ]
+        },
+        {
+            "Location": "CAVES",
+            "Doors": [
+                "FOREST",
+                "CAVERNS",
+                "TUNNELS"
+            ],
+            "Storage": []
+        },
+        {
+            "Location": "CAVERNS",
+            "Doors": [
+                "CAVES"
+            ],
+            "Storage": [
+                "WAR CHEST"
+            ]
+        }
+    ],
+    "lootBoxes": [
+        {
+            "Storage": "DECORATED CHEST",
+            "Loot": [
+                "Soul Orb"
+            ]
+        },
+        {
+            "Storage": "CHEST",
+            "Loot": [
+                "Sword",
+                "Potion",
+                "Sack",
+                "Revolver",
+                "Key",
+                "Belt"
+            ]
+        },
+        {
+            "Storage": "MAILBOX",
+            "Loot": [
+                "Box"
+            ]
+        },
+        {
+            "Storage": "FRIDGE",
+            "Loot": [
+                "Cheese",
+                "Apple"
+            ]
+        },
+        {
+            "Storage": "CABINET",
+            "Loot": [
+                "Cheese",
+                "Slingshot",
+                "Water Bottle",
+                "Ham",
+                "Bread",
+                "Recipe"
+            ]
+        },
+        {
+            "Storage": "WAR CHEST",
+            "Loot": [
+                "Cannon"
+            ]
+        },
+        {
+            "Storage": "TENT",
+            "Loot": [
+                "Stick"
+            ]
+        }
+    ],
+    "itemProperties": [
+        {
+            "Item": "Sack",
+            "Type": "Container",
+            "Slots": 3,
+            "Count": -1
+        },
+        {
+            "Item": "Sword",
+            "Type": "Weapon",
+            "Damage": 30,
+            "Count": -1,
+            "Cutting": true
+        },
+        {
+            "Item": "Revolver",
+            "Type": "Weapon",
+            "Damage": 30,
+            "Count": 6
+        },
+        {
+            "Item": "Slingshot",
+            "Type": "Weapon",
+            "Damage": 20,
+            "Count": 10
+        },
+        {
+            "Item": "Belt",
+            "Type": "Weapon",
+            "Damage": 100,
+            "Count": -1
+        },
+        {
+            "Item": "Cheese",
+            "Type": "Food",
+            "Health": 90,
+            "Cut": false,
+            "Count": 1
+        },
+        {
+            "Item": "Apple",
+            "Type": "Food",
+            "Health": 30,
+            "Cut": false,
+            "Count": 1
+        },
+        {
+            "Item": "Water Bottle",
+            "Type": "Food",
+            "Health": 10,
+            "Count": 1
+        },
+        {
+            "Item": "Ham",
+            "Type": "Food",
+            "Health": 15,
+            "Cut": false,
+            "Count": 1
+        },
+        {
+            "Item": "Bread",
+            "Type": "Food",
+            "Health": 5,
+            "Cut": false,
+            "Count": 1
+        },
+        {
+            "Item": "Sandwich",
+            "Type": "Food",
+            "Health": 40,
+            "Cut": false,
+            "Count": 1
+        },
+        {
+            "Item": "Potion",
+            "Type": "Effect",
+            "Effect": "Teleport",
+            "Count": 1
+        },
+        {
+            "Item": "Box",
+            "Type": "Container",
+            "Slots": 3,
+            "Count": -1
+        },
+        {
+            "Item": "Soul Orb",
+            "Type": "Spawner",
+            "Spawn": "Demon",
+            "Count": 1
+        },
+        {
+            "Item": "Recipe",
+            "Type": "Instructions",
+            "Instructions": "Step 1: Cut Cheese\nStep 2: Cut Ham\nStep 3: Cut Bread\nStep 4: Type \"craft\" in the options menu\nStep 5: Type the item you want to craft and hit ENTER",
+            "Count": -1
+        },
+        {
+            "Item": "Cannon",
+            "Type": "Weapon",
+            "Damage": 70,
+            "Count": 1
+        },
+        {
+            "Item": "Stick",
+            "Type": "Weapon",
+            "Damage": 10,
+            "Count": -1
+        },
+        {
+            "Item": "Slipper",
+            "Type": "Weapon",
+            "Damage": 200,
+            "Count": 10
+        }
+    ],
+    "room": "OUTSIDE",
+    "expansionLoc": "HOUSE",
+    "expansions": {
+        "Cashflow-roomAttributes": [
+            {
+                "Location": "MARKET",
+                "Doors": [
+                    "ALLEY",
+                    "CASINO",
+                    "PLAZA",
+                    "HOTEL",
+                    "VEHICLE"
+                ],
+                "Storage": [
+                    "CRATES",
+                    "BARREL"
+                ]
+            },
+            {
+                "Location": "CASINO",
+                "Doors": [
+                    "MARKET",
+                    "PLAZA",
+                    "ROOFTOP"
+                ],
+                "Storage": [
+                    "DISPLAY CASE",
+                    "CHEST",
+                    "CABINET"
+                ]
+            },
+            {
+                "Location": "BANK",
+                "Doors": [
+                    "PLAZA",
+                    "VAULT"
+                ],
+                "Storage": [
+                    "LOCKER",
+                    "CHEST",
+                    "CABINET"
+                ]
+            },
+            {
+                "Location": "ALLEY",
+                "Doors": [
+                    "MARKET",
+                    "TUNNELS"
+                ],
+                "Storage": [
+                    "CRATES",
+                    "BARREL"
+                ]
+            },
+            {
+                "Location": "ROOFTOP",
+                "Doors": [
+                    "CASINO"
+                ],
+                "Storage": [
+                    "PLANTER BOX"
+                ]
+            },
+            {
+                "Location": "PLAZA",
+                "Doors": [
+                    "MARKET",
+                    "CASINO",
+                    "BANK"
+                ],
+                "Storage": [
+                    "PLANTER BOX",
+                    "BARREL"
+                ]
+            },
+            {
+                "Location": "TUNNELS",
+                "Doors": [
+                    "ALLEY",
+                    "VAULT"
+                ],
+                "Storage": [
+                    "BARREL",
+                    "CRATES"
+                ]
+            },
+            {
+                "Location": "VAULT",
+                "Doors": [
+                    "BANK",
+                    "TUNNELS"
+                ],
+                "Storage": [
+                    "CRATES",
+                    "CABINET",
+                    "CHEST"
+                ]
+            },
+            {
+                "Location": "HOTEL",
+                "Doors": [
+                    "MARKET",
+                    "ROOFTOP GARDEN"
+                ],
+                "Storage": [
+                    "LOCKER",
+                    "CABINET"
+                ]
+            },
+            {
+                "Location": "ROOFTOP GARDEN",
+                "Doors": [
+                    "HOTEL"
+                ],
+                "Storage": [
+                    "PLANTER BOX"
+                ]
+            }
+        ],
+        "Cashflow-lootBoxes": [
+            {
+                "Storage": "CABINET",
+                "Loot": [
+                    "Cheddars",
+                    "Cheddars",
+                    "Cheddars",
+                    "Cheddars"
+                ]
+            },
+            {
+                "Storage": "CRATES",
+                "Loot": [
+                    "Cheddars",
+                    "Cheddars",
+                    "Cheddars",
+                    "Cheddars"
+                ]
+            },
+            {
+                "Storage": "BARREL",
+                "Loot": [
+                    "Cheddars",
+                    "Cheddars",
+                    "Cheddars",
+                    "Cheddars"
+                ]
+            },
+            {
+                "Storage": "DISPLAY CASE",
+                "Loot": [
+                    "Cheddars"
+                ]
+            },
+            {
+                "Storage": "CHEST",
+                "Loot": [
+                    "Cheddars",
+                    "Cheddars",
+                    "Cheddars"
+                ]
+            },
+            {
+                "Storage": "LOCKER",
+                "Loot": [
+                    "Cheddars",
+                    "Cheddars"
+                ]
+            },
+            {
+                "Storage": "PLANTER BOX",
+                "Loot": [
+                    "Cheddars",
+                    "Cheddars",
+                    "Cheddars"
+                ]
+            }
+        ],
+        "Dustbound-roomAttributes": [
+            {
+                "Location": "TAVERN",
+                "Doors": [
+                    "MAIN STREET",
+                    "CACTUS FIELD",
+                    "WATER TANK",
+                    "BATHROOM"
+                ],
+                "Storage": [
+                    "BARREL",
+                    "STRONGBOX",
+                    "KEG"
+                ]
+            },
+            {
+                "Location": "MAIN STREET",
+                "Doors": [
+                    "TAVERN",
+                    "CANYON",
+                    "PRISON",
+                    "CEMETERY",
+                    "TRAIN STATION",
+                    "PROSPECTOR'S HUT",
+                    "CHAPEL",
+                    "VEHICLE"
+                ],
+                "Storage": [
+                    "BARREL"
+                ]
+            },
+            {
+                "Location": "CANYON",
+                "Doors": [
+                    "BANDIT HIDEOUT",
+                    "MAIN STREET",
+                    "TUNNELS",
+                    "DRY CREEK"
+                ],
+                "Storage": [
+                    "AMMUNITION BOX"
+                ]
+            },
+            {
+                "Location": "GOLD MINE",
+                "Doors": [
+                    "TUNNELS"
+                ],
+                "Storage": [
+                    "VAULT"
+                ]
+            },
+            {
+                "Location": "PRISON",
+                "Doors": [
+                    "MAIN STREET",
+                    "BATHROOM"
+                ],
+                "Storage": [
+                    "STRONGBOX",
+                    "LOCKERS"
+                ]
+            },
+            {
+                "Location": "TUNNELS",
+                "Doors": [
+                    "CANYON",
+                    "GOLD MINE"
+                ],
+                "Storage": [
+                    "CHEST"
+                ]
+            },
+            {
+                "Location": "PROSPECTOR'S HUT",
+                "Doors": [
+                    "MAIN STREET"
+                ],
+                "Storage": [
+                    "CRATE",
+                    "CHEST"
+                ]
+            },
+            {
+                "Location": "DRY CREEK",
+                "Doors": [
+                    "CANYON",
+                    "BANDIT HIDEOUT"
+                ],
+                "Storage": [
+                    "AMMUNITION BOX"
+                ]
+            },
+            {
+                "Location": "CHAPEL",
+                "Doors": [
+                    "MAIN STREET"
+                ],
+                "Storage": [
+                    "CABINET"
+                ]
+            },
+            {
+                "Location": "TRAIN STATION",
+                "Doors": [
+                    "MAIN STREET",
+                    "BATHROOM"
+                ],
+                "Storage": [
+                    "BARREL",
+                    "STRONGBOX"
+                ]
+            },
+            {
+                "Location": "CACTUS FIELD",
+                "Doors": [
+                    "TAVERN",
+                    "WATER TANK"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "BANDIT HIDEOUT",
+                "Doors": [
+                    "CANYON",
+                    "CLIFF",
+                    "DRY CREEK"
+                ],
+                "Storage": [
+                    "AMMUNITION BOX",
+                    "CHEST"
+                ]
+            },
+            {
+                "Location": "CEMETERY",
+                "Doors": [
+                    "MAIN STREET"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "CLIFF",
+                "Doors": [
+                    "BANDIT HIDEOUT",
+                    "CANYON"
+                ],
+                "Storage": [
+                    "KEG"
+                ]
+            },
+            {
+                "Location": "BATHROOM",
+                "Doors": [
+                    "TAVERN",
+                    "PRISON",
+                    "TRAIN STATION"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "WATER TANK",
+                "Doors": [
+                    "TAVERN",
+                    "CACTUS FIELD"
+                ],
+                "Storage": [
+                    "BARREL"
+                ]
+            }
+        ],
+        "Dustbound-lootBoxes": [
+            {
+                "Storage": "BARREL",
+                "Loot": [
+                    "Revolver",
+                    "Smoked Buffalo",
+                    "Gunpowder",
+                    "Backpack"
+                ]
+            },
+            {
+                "Storage": "STRONGBOX",
+                "Loot": [
+                    "Explosive Guide",
+                    "Paper",
+                    "Elixir"
+                ]
+            },
+            {
+                "Storage": "KEG",
+                "Loot": [
+                    "Cheese",
+                    "Flare"
+                ]
+            },
+            {
+                "Storage": "LOCKER",
+                "Loot": [
+                    "Jerky"
+                ]
+            },
+            {
+                "Storage": "AMMUNITION BOX",
+                "Loot": [
+                    "Beans",
+                    "Knife",
+                    "Gunpowder"
+                ]
+            },
+            {
+                "Storage": "CHEST",
+                "Loot": [
+                    "Paper",
+                    "Cheese",
+                    "Stew"
+                ]
+            },
+            {
+                "Storage": "CRATE",
+                "Loot": [
+                    "Dried Fruit"
+                ]
+            },
+            {
+                "Storage": "CABINET",
+                "Loot": [
+                    "Beans"
+                ]
+            },
+            {
+                "Storage": "VAULT",
+                "Loot": [
+                    "Dynamite"
+                ]
+            }
+        ],
+        "Spacevoyager-roomAttributes": [
+            {
+                "Location": "LAUNCH SITE",
+                "Doors": [
+                    "LAUNCH SUPPORT",
+                    "CORRIDOR",
+                    "VEHICLE",
+                    "BUNKER"
+                ],
+                "Storage": [
+                    "CRATE",
+                    "LOCKERS"
+                ]
+            },
+            {
+                "Location": "LAUNCH SUPPORT",
+                "Doors": [
+                    "LAUNCH SITE",
+                    "ROCKET"
+                ],
+                "Storage": [
+                    "LOCKERS",
+                    "SAFE"
+                ]
+            },
+            {
+                "Location": "CORRIDOR",
+                "Doors": [
+                    "CONTROL ROOM",
+                    "BATHROOM",
+                    "OBSERVATION PLATFORM",
+                    "LAUNCH SITE"
+                ],
+                "Storage": [
+                    "CABINET",
+                    "DRAWERS"
+                ]
+            },
+            {
+                "Location": "BUNKER",
+                "Doors": [
+                    "LAUNCH SITE"
+                ],
+                "Storage": [
+                    "LOCKERS",
+                    "CONTAINER"
+                ]
+            },
+            {
+                "Location": "CONTROL ROOM",
+                "Doors": [
+                    "CORRIDOR",
+                    "CAFETERIA"
+                ],
+                "Storage": [
+                    "LOCKERS",
+                    "DRAWERS",
+                    "SAFE"
+                ]
+            },
+            {
+                "Location": "OBSERVATION PLATFORM",
+                "Doors": [
+                    "CORRIDOR"
+                ],
+                "Storage": [
+                    "CABINET",
+                    "TOOLBOX"
+                ]
+            },
+            {
+                "Location": "BATHROOM",
+                "Doors": [
+                    "CORRIDOR"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "CAFETERIA",
+                "Doors": [
+                    "CONTROL ROOM"
+                ],
+                "Storage": [
+                    "CABINET",
+                    "CONTAINER"
+                ]
+            },
+            {
+                "Location": "ROCKET",
+                "Doors": [
+                    "LAUNCH SUPPORT",
+                    "MOON",
+                    "MARS",
+                    "MERCURY",
+                    "VENUS"
+                ],
+                "Storage": [
+                    "DRAWERS",
+                    "SAFE"
+                ]
+            },
+            {
+                "Location": "MARS",
+                "Doors": [
+                    "ROCKET",
+                    "OLYMPUS MONS",
+                    "OUTPOST"
+                ],
+                "Storage": [
+                    "CRATE",
+                    "CONTAINER"
+                ]
+            },
+            {
+                "Location": "OUTPOST",
+                "Doors": [
+                    "MARS"
+                ],
+                "Storage": [
+                    "CRATE",
+                    "TOOLBOX"
+                ]
+            },
+            {
+                "Location": "MOON",
+                "Doors": [
+                    "ROCKET",
+                    "CRATER"
+                ],
+                "Storage": [
+                    "CRATE"
+                ]
+            },
+            {
+                "Location": "OLYMPUS MONS",
+                "Doors": [
+                    "MARS"
+                ],
+                "Storage": [
+                    "VOID CHEST"
+                ]
+            },
+            {
+                "Location": "CRATER",
+                "Doors": [
+                    "MOON"
+                ],
+                "Storage": [
+                    "CONTAINER"
+                ]
+            },
+            {
+                "Location": "MERCURY",
+                "Doors": [
+                    "ROCKET"
+                ],
+                "Storage": [
+                    "TOOLBOX"
+                ]
+            }
+        ],
+        "Spacevoyager-lootBoxes": [
+            {
+                "Storage": "LOCKERS",
+                "Loot": [
+                    "Space Suit",
+                    "Oxygen",
+                    "Energy Bar",
+                    "Keycard"
+                ]
+            },
+            {
+                "Storage": "CABINET",
+                "Loot": [
+                    "Blaster",
+                    "Water Bottle",
+                    "Alloy Chunk"
+                ]
+            },
+            {
+                "Storage": "CRATE",
+                "Loot": [
+                    "Moon Rock",
+                    "Cheese",
+                    "Plasma Blade",
+                    "Grenade"
+                ]
+            },
+            {
+                "Storage": "SAFE",
+                "Loot": [
+                    "Med Kit",
+                    "Laser Pistol",
+                    "Artifact"
+                ]
+            },
+            {
+                "Storage": "DRAWERS",
+                "Loot": [
+                    "Toolkit",
+                    "Med Kit",
+                    "Meal Kit"
+                ]
+            },
+            {
+                "Storage": "CONTAINER",
+                "Loot": [
+                    "Ration",
+                    "Meal Kit",
+                    "Taser",
+                    "Welding Torch"
+                ]
+            },
+            {
+                "Storage": "TOOLBOX",
+                "Loot": [
+                    "Laser Pistol",
+                    "Grenade",
+                    "Blueprint"
+                ]
+            },
+            {
+                "Storage": "VOID CHEST",
+                "Loot": [
+                    "Beacon"
+                ]
+            }
+        ],
+        "Spacevoyager_cheese-roomAttributes": [
+            {
+                "Location": "CHEDDAR SITE",
+                "Doors": [
+                    "CHEESE SUPPORT",
+                    "CHEESE HALL",
+                    "CHEESE-MOBILE",
+                    "CHEDDAR BUNKER"
+                ],
+                "Storage": [
+                    "CHEDDAR CRATE",
+                    "CHEESE LOCKERS"
+                ]
+            },
+            {
+                "Location": "CHEESE SUPPORT",
+                "Doors": [
+                    "CHEDDAR SITE",
+                    "CHEDDAR ROCKET"
+                ],
+                "Storage": [
+                    "CHEESE LOCKERS",
+                    "CHEESE SAFE"
+                ]
+            },
+            {
+                "Location": "CHEESE HALL",
+                "Doors": [
+                    "CHEESE ROOM",
+                    "BATHROOM",
+                    "CHEDDAR PLATFORM",
+                    "CHEDDAR SITE"
+                ],
+                "Storage": [
+                    "CHEESE CABINET",
+                    "CHEDDAR DRAWERS"
+                ]
+            },
+            {
+                "Location": "CHEDDAR BUNKER",
+                "Doors": [
+                    "CHEDDAR SITE"
+                ],
+                "Storage": [
+                    "CHEESE LOCKERS",
+                    "CONTAINER"
+                ]
+            },
+            {
+                "Location": "CHEESE ROOM",
+                "Doors": [
+                    "CHEESE HALL",
+                    "CHEESE CAFETERIA"
+                ],
+                "Storage": [
+                    "CHEESE LOCKERS",
+                    "CHEDDAR DRAWERS",
+                    "CHEESE SAFE"
+                ]
+            },
+            {
+                "Location": "CHEDDAR PLATFORM",
+                "Doors": [
+                    "CHEESE HALL"
+                ],
+                "Storage": [
+                    "CHEESE CABINET",
+                    "CHEESE BOX"
+                ]
+            },
+            {
+                "Location": "BATHROOM",
+                "Doors": [
+                    "CHEESE HALL"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "CHEESE CAFETERIA",
+                "Doors": [
+                    "CHEESE ROOM"
+                ],
+                "Storage": [
+                    "CHEESE CABINET",
+                    "CONTAINER"
+                ]
+            },
+            {
+                "Location": "CHEDDAR ROCKET",
+                "Doors": [
+                    "CHEESE SUPPORT",
+                    "CHEESE",
+                    "RED CHEESE",
+                    "GRAY CHEESE",
+                    "STINKY CHEESE"
+                ],
+                "Storage": [
+                    "CHEDDAR DRAWERS",
+                    "CHEESE SAFE"
+                ]
+            },
+            {
+                "Location": "RED CHEESE",
+                "Doors": [
+                    "CHEDDAR ROCKET",
+                    "CHEDDAR MONS",
+                    "CHEESE STATION"
+                ],
+                "Storage": [
+                    "CHEDDAR CRATE",
+                    "CONTAINER"
+                ]
+            },
+            {
+                "Location": "CHEESE STATION",
+                "Doors": [
+                    "RED CHEESE"
+                ],
+                "Storage": [
+                    "CHEDDAR CRATE",
+                    "CHEESE BOX"
+                ]
+            },
+            {
+                "Location": "CHEESE",
+                "Doors": [
+                    "CHEDDAR ROCKET",
+                    "CHEESE CRATER"
+                ],
+                "Storage": [
+                    "CHEDDAR CRATE"
+                ]
+            },
+            {
+                "Location": "CHEDDAR MONS",
+                "Doors": [
+                    "RED CHEESE"
+                ],
+                "Storage": [
+                    "CHEESE CHEST"
+                ]
+            },
+            {
+                "Location": "CHEESE CRATER",
+                "Doors": [
+                    "CHEESE"
+                ],
+                "Storage": [
+                    "CONTAINER"
+                ]
+            },
+            {
+                "Location": "GRAY CHEESE",
+                "Doors": [
+                    "CHEDDAR ROCKET"
+                ],
+                "Storage": [
+                    "CHEESE BOX"
+                ]
+            }
+        ],
+        "Spacevoyager_cheese-lootBoxes": [
+            {
+                "Storage": "CHEESE LOCKERS",
+                "Loot": [
+                    "Cheese Suit",
+                    "Cheese Gas",
+                    "Cheese Bar",
+                    "Cheesecard"
+                ]
+            },
+            {
+                "Storage": "CHEESE CABINET",
+                "Loot": [
+                    "Cheddar Blaster",
+                    "Water Bottle",
+                    "Cheddar Chunk"
+                ]
+            },
+            {
+                "Storage": "CHEDDAR CRATE",
+                "Loot": [
+                    "Cheese Rock",
+                    "Cheese",
+                    "Swiss Blade",
+                    "Cheesenade"
+                ]
+            },
+            {
+                "Storage": "CHEESE SAFE",
+                "Loot": [
+                    "Cheddar Kit",
+                    "Cheddar Pistol",
+                    "Cheddar"
+                ]
+            },
+            {
+                "Storage": "CHEDDAR DRAWERS",
+                "Loot": [
+                    "Cheesekit",
+                    "Cheddar Kit",
+                    "Swiss Kit"
+                ]
+            },
+            {
+                "Storage": "CONTAINER",
+                "Loot": [
+                    "Cheese",
+                    "Swiss Kit",
+                    "Cheese Taser",
+                    "Welding Torch"
+                ]
+            },
+            {
+                "Storage": "CHEESE BOX",
+                "Loot": [
+                    "Cheddar Pistol",
+                    "Cheesenade",
+                    "Cheeseprint"
+                ]
+            },
+            {
+                "Storage": "CHEESE CHEST",
+                "Loot": [
+                    "Cheddar Beacon"
+                ]
+            }
+        ],
+        "Template_Expansions-roomAttributes": [
+            {
+                "Location": "INITAL_LOCATION",
+                "Doors": [
+                    "EXAMPLE_DOORS"
+                ],
+                "Storage": [
+                    "EXAMPLE_STORAGE"
+                ]
+            }
+        ],
+        "Template_Expansions-lootBoxes": [
+            {
+                "Storage": "EXAMPLE_STORAGE",
+                "Loot": [
+                    "EXAMPLE_LOOT"
+                ]
+            }
+        ],
+        "Cheeserealm-roomAttributes": [
+            {
+                "Location": "CHEDDAR CELLAR",
+                "Doors": [
+                    "CHEDDAR KITCHEN",
+                    "CHEESE PORTAL"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "CHEESE YARD",
+                "Doors": [
+                    "CHEDDAR KITCHEN",
+                    "CHEESE HALL",
+                    "CHEDDAR SHED",
+                    "CHEDDAR FOREST"
+                ],
+                "Storage": [
+                    "CHEESEBOX"
+                ]
+            },
+            {
+                "Location": "CHEESE HALL",
+                "Doors": [
+                    "CHEDDAR KITCHEN",
+                    "BATHROOM",
+                    "UPPER CHEESE",
+                    "CHEESE YARD",
+                    "CHEESEMENT"
+                ],
+                "Storage": [
+                    "CHEESE CABINET"
+                ]
+            },
+            {
+                "Location": "CHEDDAR KITCHEN",
+                "Doors": [
+                    "CHEESE HALL",
+                    "DINING CHEESE",
+                    "CHEDDAR ATTIC",
+                    "CHEESE YARD",
+                    "CHEDDAR CELLAR"
+                ],
+                "Storage": [
+                    "CHEESE CABINET",
+                    "CHEDDAR FRIDGE"
+                ]
+            },
+            {
+                "Location": "CHEDDAR ATTIC",
+                "Doors": [
+                    "CHEDDAR KITCHEN",
+                    "UPPER CHEESE",
+                    "CHEESE ROOF"
+                ],
+                "Storage": [
+                    "CHEESE CHEST",
+                    "CHEESE CABINET"
+                ]
+            },
+            {
+                "Location": "CHEESEMENT",
+                "Doors": [
+                    "CHEESE HALL",
+                    "SWISS CHEESE"
+                ],
+                "Storage": [
+                    "CHEDDAR FRIDGE",
+                    "CHEESE CHEST"
+                ]
+            },
+            {
+                "Location": "SWISS CHEESE",
+                "Doors": [
+                    "CHEESEMENT",
+                    "CHEESE CAVES"
+                ],
+                "Storage": [
+                    "CHEDDAR CHEST"
+                ]
+            },
+            {
+                "Location": "CHEESE ROOF",
+                "Doors": [
+                    "CHEDDAR ATTIC"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "UPPER CHEESE",
+                "Doors": [
+                    "CHEDDAR ATTIC",
+                    "CHEESE HALL",
+                    "CHEDDAR ROOM",
+                    "CHEESE ROOM"
+                ],
+                "Storage": [
+                    "CHEESE CHEST"
+                ]
+            },
+            {
+                "Location": "CHEDDAR SHED",
+                "Doors": [
+                    "CHEESE YARD",
+                    "CHEESE-MOBILE"
+                ],
+                "Storage": [
+                    "CHEESE CHEST"
+                ]
+            },
+            {
+                "Location": "CHEESE ROOM",
+                "Doors": [
+                    "UPPER CHEESE"
+                ],
+                "Storage": [
+                    "CHEESE CABINET"
+                ]
+            },
+            {
+                "Location": "DINING CHEESE",
+                "Doors": [
+                    "CHEDDAR KITCHEN",
+                    "BATHROOM"
+                ],
+                "Storage": [
+                    "CHEESE CHEST"
+                ]
+            },
+            {
+                "Location": "BATHROOM",
+                "Doors": [
+                    "DINING CHEESE",
+                    "CHEESE HALL"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "CHEDDAR ROOM",
+                "Doors": [
+                    "UPPER CHEESE"
+                ],
+                "Storage": [
+                    "CHEESE CABINET"
+                ]
+            },
+            {
+                "Location": "CHEDDAR FOREST",
+                "Doors": [
+                    "CHEESE YARD",
+                    "CHEESE SITE",
+                    "CHEESE CAVES"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "CHEESE SITE",
+                "Doors": [
+                    "CHEDDAR FOREST"
+                ],
+                "Storage": [
+                    "CHEESE TENT"
+                ]
+            },
+            {
+                "Location": "CHEESE CAVES",
+                "Doors": [
+                    "CHEDDAR FOREST",
+                    "CHEDDAR CAVERNS",
+                    "SWISS CHEESE"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "CHEDDAR CAVERNS",
+                "Doors": [
+                    "CHEESE CAVES"
+                ],
+                "Storage": [
+                    "WAR CHEESE"
+                ]
+            }
+        ],
+        "Cheeserealm-lootBoxes": [
+            {
+                "Storage": "CHEDDAR CHEST",
+                "Loot": [
+                    "Cheese Belt"
+                ]
+            },
+            {
+                "Storage": "CHEESE CHEST",
+                "Loot": [
+                    "Cheese Sword",
+                    "Cheese Potion",
+                    "Cheese Sack",
+                    "Cheddar Gun",
+                    "Cheese Recipe"
+                ]
+            },
+            {
+                "Storage": "CHEESEBOX",
+                "Loot": [
+                    "Cheddar Box"
+                ]
+            },
+            {
+                "Storage": "CHEDDAR FRIDGE",
+                "Loot": [
+                    "Cheese",
+                    "Cheese"
+                ]
+            },
+            {
+                "Storage": "CHEESE CABINET",
+                "Loot": [
+                    "Cheese",
+                    "Cheeseshot",
+                    "Cheddar Bottle",
+                    "Cheese",
+                    "Cheddar Bread"
+                ]
+            },
+            {
+                "Storage": "WAR CHEESE",
+                "Loot": [
+                    "Cheese Cannon"
+                ]
+            },
+            {
+                "Storage": "CHEESE TENT",
+                "Loot": [
+                    "Cheese Stick"
+                ]
+            }
+        ],
+        "Template_Realms-roomAttributes": [
+            {
+                "Location": "CHEDDAR CELLAR",
+                "Doors": [
+                    "CHEDDAR KITCHEN",
+                    "CHEESE PORTAL"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "CHEESE YARD",
+                "Doors": [
+                    "CHEDDAR KITCHEN",
+                    "CHEESE HALL",
+                    "CHEDDAR SHED",
+                    "CHEDDAR FOREST"
+                ],
+                "Storage": [
+                    "CHEESEBOX"
+                ]
+            },
+            {
+                "Location": "CHEESE HALL",
+                "Doors": [
+                    "CHEDDAR KITCHEN",
+                    "BATHROOM",
+                    "UPPER CHEESE",
+                    "CHEESE YARD",
+                    "CHEESEMENT"
+                ],
+                "Storage": [
+                    "CHEESE CABINET"
+                ]
+            },
+            {
+                "Location": "CHEDDAR KITCHEN",
+                "Doors": [
+                    "CHEESE HALL",
+                    "DINING CHEESE",
+                    "CHEDDAR ATTIC",
+                    "CHEESE YARD",
+                    "CHEDDAR CELLAR"
+                ],
+                "Storage": [
+                    "CHEESE CABINET",
+                    "CHEDDAR FRIDGE"
+                ]
+            },
+            {
+                "Location": "CHEDDAR ATTIC",
+                "Doors": [
+                    "CHEDDAR KITCHEN",
+                    "UPPER CHEESE",
+                    "CHEESE ROOF"
+                ],
+                "Storage": [
+                    "CHEESE CHEST",
+                    "CHEESE CABINET"
+                ]
+            },
+            {
+                "Location": "CHEESEMENT",
+                "Doors": [
+                    "CHEESE HALL",
+                    "SWISS CHEESE"
+                ],
+                "Storage": [
+                    "CHEDDAR FRIDGE",
+                    "CHEESE CHEST"
+                ]
+            },
+            {
+                "Location": "SWISS CHEESE",
+                "Doors": [
+                    "CHEESEMENT",
+                    "CHEESE CAVES"
+                ],
+                "Storage": [
+                    "CHEDDAR CHEST"
+                ]
+            },
+            {
+                "Location": "CHEESE ROOF",
+                "Doors": [
+                    "CHEDDAR ATTIC"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "UPPER CHEESE",
+                "Doors": [
+                    "CHEDDAR ATTIC",
+                    "CHEESE HALL",
+                    "CHEDDAR ROOM",
+                    "CHEESE ROOM"
+                ],
+                "Storage": [
+                    "CHEESE CHEST"
+                ]
+            },
+            {
+                "Location": "CHEDDAR SHED",
+                "Doors": [
+                    "CHEESE YARD",
+                    "EXAMPLE_VEHICLE"
+                ],
+                "Storage": [
+                    "CHEESE CHEST"
+                ]
+            },
+            {
+                "Location": "CHEESE ROOM",
+                "Doors": [
+                    "UPPER CHEESE"
+                ],
+                "Storage": [
+                    "CHEESE CABINET"
+                ]
+            },
+            {
+                "Location": "DINING CHEESE",
+                "Doors": [
+                    "CHEDDAR KITCHEN",
+                    "BATHROOM"
+                ],
+                "Storage": [
+                    "CHEESE CHEST"
+                ]
+            },
+            {
+                "Location": "BATHROOM",
+                "Doors": [
+                    "DINING CHEESE",
+                    "CHEESE HALL"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "CHEDDAR ROOM",
+                "Doors": [
+                    "UPPER CHEESE"
+                ],
+                "Storage": [
+                    "CHEESE CABINET"
+                ]
+            },
+            {
+                "Location": "CHEDDAR FOREST",
+                "Doors": [
+                    "CHEESE YARD",
+                    "CHEESE SITE",
+                    "CHEESE CAVES"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "CHEESE SITE",
+                "Doors": [
+                    "CHEDDAR FOREST"
+                ],
+                "Storage": [
+                    "CHEESE TENT"
+                ]
+            },
+            {
+                "Location": "CHEESE CAVES",
+                "Doors": [
+                    "CHEDDAR FOREST",
+                    "CHEDDAR CAVERNS",
+                    "SWISS CHEESE"
+                ],
+                "Storage": []
+            },
+            {
+                "Location": "CHEDDAR CAVERNS",
+                "Doors": [
+                    "CHEESE CAVES"
+                ],
+                "Storage": [
+                    "WAR CHEESE"
+                ]
+            }
+        ],
+        "Template_Realms-lootBoxes": [
+            {
+                "Storage": "CHEDDAR CHEST",
+                "Loot": [
+                    "Cheese Belt"
+                ]
+            },
+            {
+                "Storage": "CHEESE CHEST",
+                "Loot": [
+                    "Cheese Sword",
+                    "Cheese Potion",
+                    "Cheese Sack",
+                    "Cheddar Gun",
+                    "Cheese Recipe"
+                ]
+            },
+            {
+                "Storage": "CHEESEBOX",
+                "Loot": [
+                    "Cheddar Box"
+                ]
+            },
+            {
+                "Storage": "CHEDDAR FRIDGE",
+                "Loot": [
+                    "Cheese",
+                    "Cheese"
+                ]
+            },
+            {
+                "Storage": "CHEESE CABINET",
+                "Loot": [
+                    "Cheese",
+                    "Cheeseshot",
+                    "Cheddar Bottle",
+                    "Cheese",
+                    "Cheddar Bread"
+                ]
+            },
+            {
+                "Storage": "WAR CHEESE",
+                "Loot": [
+                    "Cheese Cannon"
+                ]
+            },
+            {
+                "Storage": "CHEESE TENT",
+                "Loot": [
+                    "Cheese Stick"
+                ]
+            }
+        ]
+    },
+    "special": {
+        "Cashflow-specialVars": {
+            "Cheddars": 0
+        },
+        "Cheeserealm-expansions": [
+            "CHEESE REALM"
+        ],
+        "Template_Realms-expansions": [
+            "EXAMPLE_REALM"
+        ]
+    }
+}
