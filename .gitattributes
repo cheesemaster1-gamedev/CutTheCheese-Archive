@@ -1,1 +1,2 @@
 CutTheCheese[[:space:]]V2.2.1/CutTheCheese2.exe filter=lfs diff=lfs merge=lfs -text
+CutTheCheese[[:space:]]V2.2.1.zip filter=lfs diff=lfs merge=lfs -text
